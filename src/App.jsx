@@ -4,6 +4,7 @@ import Greeting from './components/Greeting';
 import Random from './components/Random';
 import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard';
+import Rating from './components/Rating';
 
 function App() {
   const user1 = {
@@ -71,6 +72,15 @@ function App() {
           bgColor="#ddbb55"
           color="white"
         />
+      </div>
+      <h1>Rating</h1>
+      <div className="rating">
+        <Rating>0</Rating>
+        <Rating>1.49</Rating>
+        <Rating>1.5</Rating>
+        <Rating>3</Rating>
+        <Rating>4</Rating>
+        <Rating>5</Rating>
       </div>
     </>
   );
